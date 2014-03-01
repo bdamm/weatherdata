@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>17093797</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>1</time_taken_ms>
+  <data num_results="2">
+    <METAR>
+      <raw_text>KSQL 100510Z AUTO 24008KT 8SM OVC019 15/13 A3011 RMK AO2</raw_text>
+      <station_id>KSQL</station_id>
+      <observation_time>2014-02-10T05:10:00Z</observation_time>
+      <latitude>37.52</latitude>
+      <longitude>-122.25</longitude>
+      <temp_c>15.0</temp_c>
+      <dewpoint_c>13.0</dewpoint_c>
+      <wind_dir_degrees>240</wind_dir_degrees>
+      <wind_speed_kt>8</wind_speed_kt>
+      <visibility_statute_mi>8.0</visibility_statute_mi>
+      <altim_in_hg>30.109253</altim_in_hg>
+      <quality_control_flags>
+        <auto>TRUE</auto>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="OVC" cloud_base_ft_agl="1900" />
+      <flight_category>MVFR</flight_category>
+      <metar_type>METAR</metar_type>
+      <elevation_m>1.0</elevation_m>
+    </METAR>
+    <METAR>
+      <raw_text>KSQL 100447Z 22006KT 7SM BKN019 OVC029 15/13 A3010 RMK LAST</raw_text>
+      <station_id>KSQL</station_id>
+      <observation_time>2014-02-10T04:47:00Z</observation_time>
+      <latitude>37.52</latitude>
+      <longitude>-122.25</longitude>
+      <temp_c>15.0</temp_c>
+      <dewpoint_c>13.0</dewpoint_c>
+      <wind_dir_degrees>220</wind_dir_degrees>
+      <wind_speed_kt>6</wind_speed_kt>
+      <visibility_statute_mi>7.0</visibility_statute_mi>
+      <altim_in_hg>30.100393</altim_in_hg>
+      <sky_condition sky_cover="BKN" cloud_base_ft_agl="1900" />
+      <sky_condition sky_cover="OVC" cloud_base_ft_agl="2900" />
+      <flight_category>MVFR</flight_category>
+      <metar_type>METAR</metar_type>
+      <elevation_m>1.0</elevation_m>
+    </METAR>
+  </data>
+</response>
